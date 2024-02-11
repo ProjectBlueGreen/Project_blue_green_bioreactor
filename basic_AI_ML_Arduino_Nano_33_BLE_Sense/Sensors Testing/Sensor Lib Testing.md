@@ -181,8 +181,11 @@ Overall, this code reads audio samples from a microphone using PDM and adjusts t
 **Results**:
 
 ![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl17.png?raw=true)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl18.png?raw=true)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl19.jpg?raw=true)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl20.jpg?raw=true)
 
--
+
 ## **Gesture Recognition with the Nano 33 BLE Sense**
 
 **Theory**:
