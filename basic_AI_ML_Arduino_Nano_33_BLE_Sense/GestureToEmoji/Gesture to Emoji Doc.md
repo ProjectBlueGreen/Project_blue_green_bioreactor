@@ -103,4 +103,5 @@ In this tutorial, we will guide you through the process of creating a custom ges
 - Open the Serial Monitor: `Tools -> Serial Monitor` and keep **newline** to `Both NL & CR` and **baud rate** to `9600 baud`
 - Press the reset button, and perform a gesture (Punch or Flex gesture)
 
-![](RackMultipart20240209-1-z2j864_html_59838a9656b28c31.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/0056aa7c-6b91-487a-a8eb-bdda83b74ef1)
+
