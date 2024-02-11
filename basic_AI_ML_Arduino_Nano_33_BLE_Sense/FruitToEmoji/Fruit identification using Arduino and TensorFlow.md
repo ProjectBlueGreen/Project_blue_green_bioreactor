@@ -5,7 +5,7 @@ In this Document we are going to walk through an even simpler end-to-end tutoria
 
 In this tutorial when the object is close enough we sample the color – the onboard RGB sensor can be viewed as a 1-pixel color camera. While this method has limitations it provides us a quick way of classifying objects only using a small amount of resources. Note that you could indeed run a complete [CNN-based vision model](http://cs231n.github.io/convolutional-networks/) on-device. As this particular Arduino board includes an onboard colorimeter, we thought it’d be fun and instructive to demonstrate in this way to start with.
 
-![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.001.png)![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.002.jpeg)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/9391d47b-584d-4b88-be90-3155fdf2f2ad)
 
 ## **Reference**
 1. Check [Youtube Tutorial](https://www.youtube.com/watch?v=xBW-lFY2c1k&list=PL3E6XmqhhLBHXX2fG2dVER-LOq_7nl9p6&index=17)
