@@ -192,7 +192,7 @@ Overall, this code reads audio samples from a microphone using PDM and adjusts t
 
 The APDS9960 sensor is a multipurpose device that features advanced gesture detection, proximity detection, Digital Ambient Light Sense (ALS) and Color Sense (RGBC).
 
-![](RackMultipart20240210-1-42gde9_html_e6679f8785465ceb.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl21.png?raw=true)
 
 <u>(Fig. The APDSS9960 sensor)</u>
 
@@ -211,7 +211,7 @@ The sensor's gesture detection utilizes four directional photodiodes to sense re
 
 ### The APDS9960 library allows us to use the sensor available on the board, to read gestures, color, light intensity, and proximity. The library includes some of the following functions:
 
-![](RackMultipart20240210-1-42gde9_html_3627bd2bfc507874.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl22.png?raw=true)
 
 If you want a deeper knowledge of any of the library's functions, you can check the Arduino [reference](https://www.arduino.cc/en/Reference/ArduinoAPDS9960) for this library.
 
@@ -221,7 +221,7 @@ For this tutorial, we will only focus on the gesture readings, which are based o
 
 **Step 1:** **Start by opening the Arduino Web Editor, clicking on the** Libraries **tab, and searching for the APDS9960 library. Then in \>** Examples **, open the** GestureSensor** sketch and once it opens, you can rename it as Gesture&LEDs.
 
-![](RackMultipart20240210-1-42gde9_html_ee415857ee63e4c4.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl23.png?raw=true)
 
 **Step 2:** Connecting the board 
 
@@ -233,11 +233,11 @@ Now we will need to modify the code on the example, to change the color of the R
 
 After including the Arduino\_APDS9960.h library, we will need to configure the specified pins (22, 23, 24, LED\_BUILTIN) at the beginning of the setup() section, to behave as output:
 
-![](RackMultipart20240210-1-42gde9_html_554ef70da597dfcb.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl24.png?raw=true)
 
 and then at the end, we need to turn all the LEDs OFF by adding the following statements
 
-![](RackMultipart20240210-1-42gde9_html_11cc66833c915052.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl25.png?raw=true)
 
 In the loop() section the if() statement is checking that the gesture sensor is available and if it is, it reads for any incoming gesture detection.
 
@@ -247,29 +247,29 @@ If the sensor detects motions (up, down, left, or right) we can add the followin
 
 In the GESTURE\_UP case, the RGB LED will glow **red** for a second:
 
-![](RackMultipart20240210-1-42gde9_html_5612da2f25e47771.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl26.png?raw=true)
 
 In the GESTURE\_DOWN case, the RGB LED will glow green for one second:
 
-![](RackMultipart20240210-1-42gde9_html_3006c4183c487ec8.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl27.png?raw=true)
 
 In the GESTURE\_LEFT case, the RGB LED will glow blue for one second:
 
-![](RackMultipart20240210-1-42gde9_html_d15343d567011fbb.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl28.png?raw=true)
 
 Lastly, in the GESTURE\_RIGHT case, the small built-in LED will glow orange for one second:
 
-![](RackMultipart20240210-1-42gde9_html_d0ebd2709ba94d9e.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl29.png?raw=true)
 
 Now the code is complete!
 
 **File Name :** `GestureRGB.ino`
 
-![](RackMultipart20240210-1-42gde9_html_beef9a894231a58f.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl30.png?raw=true)
 
 This line includes the necessary Arduino library for the APDS9960 Gesture Sensor.
 
-![](RackMultipart20240210-1-42gde9_html_f616a2069b5af827.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl31.png?raw=true)
 
 **In the setup() function:**
 
@@ -281,8 +281,7 @@ This line includes the necessary Arduino library for the APDS9960 Gesture Sensor
 - A message is printed to indicate that gesture detection is in progress.
 - The RGB LEDs are turned off initially by setting them to HIGH.
 
-![](RackMultipart20240210-1-42gde9_html_7443b4359d8811e4.png) ![](RackMultipart20240210-1-42gde9_html_35b0321498453dae.png)
-
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl32.png?raw=true)
 **In the loop() function:**
 
 - It checks if a gesture is available using APDS.gestureAvailable().
