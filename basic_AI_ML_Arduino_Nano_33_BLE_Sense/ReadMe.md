@@ -47,8 +47,8 @@ Feel free to explore the code, example projects, and resources we've shared. If 
 </h3>
 
 ## Resources
-* Check [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/Sensors-Testing) for all the Sensor Libraries of Arduino BLE.
-* For Gesture recognition refer [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/GestureToEmoji)
-* For Fruit recognition refer [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/FruitToEmoji)
-* For Speech recognition refer [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/SpeechRecognition)
+* Check [this detailed Document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/Sensors-Testing) for all the Sensor Libraries of Arduino BLE.
+* For Gesture recognition refer [this detailed Document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/GestureToEmoji)
+* For Fruit recognition refer [this detailed Document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/FruitToEmoji)
+* For Speech recognition refer [this detailed Document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/SpeechRecognition)
 * Please refer [this Document](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/AI_ML%20Resources%20Pastebin.md) for all the references and resources used.
