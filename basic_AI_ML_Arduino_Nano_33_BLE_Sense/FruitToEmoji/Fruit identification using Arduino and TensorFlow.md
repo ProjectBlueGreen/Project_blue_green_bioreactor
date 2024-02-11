@@ -48,7 +48,8 @@ For each fruit we want to classify we will capture some color data. By doing a q
 ## STEP 3: Training the model
 We will now use Colab to train an ML model using the data you just captured in the previous section.
 
-- First open the FruitToEmoji Jupyter Notebook in [colab](https://colab.research.google.com/github/arduino/ArduinoTensorFlowLiteTutorials/blob/master/FruitToEmoji/FruitToEmoji.ipynb)
+- First open the FruitToEmoji Jupyter Notebook in [colab](https://colab.research.google.com/github/arduino/ArduinoTensorFlowLiteTutorials/blob/master/FruitToEmoji/FruitToEmoji.ipynb)![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/17f38b14-3fe1-45df-a58e-f09543434efa)
+
 - Follow the instructions in the colab
   - You will be uploading your `.csv` files 
   - Parsing and preparing the data
