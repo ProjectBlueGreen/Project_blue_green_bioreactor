@@ -48,7 +48,7 @@
 
 
 ## Resources
-* Check [this Directory](https://github.com/ProjectBlueGreen/project_blue_green_software/) for **AI ML integration on Arduino Nano 33 BLE Sense Board**
+* Check [**AI ML integration on Arduino Nano 33 BLE Sense Board**](https://github.com/ProjectBlueGreen/project_blue_green_software/)
 
 ## Open Source Contribution
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **extremely appreciated**. See the [open issues](https://github.com/ProjectBlueGreen/Project_blue_green_bioreactor/issues) for a list of proposed features (and known issues).
