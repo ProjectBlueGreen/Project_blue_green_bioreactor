@@ -65,16 +65,10 @@ In this tutorial, we will guide you through the process of creating a custom ges
 
 ![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/54cc5174-b1a5-474e-afe6-38eefed79e17)
 
-
-- You can enable 3rd party cookies, or better yet, add an exception for `[\*.]googleusercontent.com`
-
-![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/84930bfc-c0dc-43a1-b712-854daab3cba6)
-
-
 - If you find some error in the colab notebook code then refer this google colab notebook: [GestureToEmoji\_arduino\_tinyml\_workshop.ipynb](https://colab.research.google.com/drive/1DYw_duH0RqHkklAlh0LHSBwvMzx5QN-o#scrollTo=1eSkHZaLzMId)
 - You will get these two files after running all the cells of the colab notebook. Download these two files.
 
-![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/dcc927a3-c66d-411a-adcc-903d95b9a85c)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/84930bfc-c0dc-43a1-b712-854daab3cba6)
 
 
 ## STEP 5: Classifying the IMU Data
@@ -82,7 +76,7 @@ In this tutorial, we will guide you through the process of creating a custom ges
 - Go to `\Documents\Arduino\libraries\ArduinoSketches\IMU_Classifier` and open `IMU_Classifier.ino` sketch in the Arduino IDE.
 - Switch to the `model.h` tab which will be next to `IMU_classifier.ino` sketch
 
-![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/b755cde4-c367-491d-8f83-d5c500bfbfe5)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/dcc927a3-c66d-411a-adcc-903d95b9a85c)
 
 
 - Replace the contents of `model.h` with the version you downloaded from Google Colab
@@ -91,7 +85,7 @@ In this tutorial, we will guide you through the process of creating a custom ges
 - Press the reset button, and perform a gesture (Punch or Flex gesture)
 - The confidence of each gesture will be printed to the Serial Monitor (Close to 0 -> low confidence & Close to 1 -> high confidence)
 
-![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/fd60fca0-9b06-48f0-afcb-14967739d79f)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/b755cde4-c367-491d-8f83-d5c500bfbfe5)
 
 
 ## STEP 6: Gesture Emoji (👊 and 💪)
