@@ -15,7 +15,8 @@ In this tutorial when the object is close enough we sample the color – the onb
 ## **About the Arduino board**
 The [Arduino Nano 33 BLE Sense](https://store.arduino.cc/arduino-nano-33-ble-sense?utm_source=blog&utm_campaign=ai&utm_content=fruit_identification) board we’re using here has an Arm Cortex-M4 microcontroller running mbedOS and a ton of onboard sensors – digital microphone, accelerometer, gyroscope, temperature, humidity, pressure, light, color, and proximity.While tiny by cloud or mobile standards the microcontroller is powerful enough to run TensorFlow Lite Micro models and classify sensor data from the onboard sensors.
 
-![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.003.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/211719b5-91b6-4f06-a27e-1c8b599ae2fb)
+
 
 ## STEP 1: Arduino IDE Setup
 
