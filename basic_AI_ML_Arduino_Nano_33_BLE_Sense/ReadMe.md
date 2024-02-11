@@ -20,7 +20,7 @@
 * [Resources](#resources)
 
 ## About
-Welcome to our project repository! This folder is a part of Project Blue Green Software to show the basic workflow of AIML and TensorFlow Lite on the Arduino Nano 33 BLE Sense board.
+Welcome to our project repository! This directory is a part of Project Blue Green Software to show the basic workflow of AI ML and TensorFlow Lite on the Arduino Nano 33 BLE Sense board.
 Feel free to explore the code, example projects, and resources we've shared. If you have any questions, feedback, or ideas, don't hesitate to reach out. We're excited to be part of this vibrant community of makers and innovators.
 
 
