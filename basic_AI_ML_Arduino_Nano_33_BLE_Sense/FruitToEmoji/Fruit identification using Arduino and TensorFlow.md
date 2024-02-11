@@ -80,4 +80,5 @@ We will now use Colab to train an ML model using the data you just captured in t
 - The output of the fruit detected will be presented in percentage format in the serial monitor 
 
 ![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/fe9a177b-33ff-4cd3-a1c7-fb4059a18ce7)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/1d19df0c-dd2e-4ca8-b57a-1803ad406151)
 
