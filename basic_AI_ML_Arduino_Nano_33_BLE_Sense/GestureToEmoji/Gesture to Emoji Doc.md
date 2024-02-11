@@ -22,7 +22,8 @@ In this tutorial, we will guide you through the process of creating a custom ges
 - Open the Serial Monitor: `Tools -> Serial Monitor` to view the text output.
 - Open the Serial Plotter: `Tools -> Serial Plotter` to view the output on a graph.
 
-![](RackMultipart20240209-1-z2j864_html_3d28b9b4140ec90.jpg)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/d63e5261-92d6-4e69-94b8-f37ed440cb50)
+
 
 - Similarly, you can open a **SimpleGyroscope** sketch and you will get a Gyroscope result on the serial monitor.
 
