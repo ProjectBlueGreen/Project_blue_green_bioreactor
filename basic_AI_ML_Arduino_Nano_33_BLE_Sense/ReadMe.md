@@ -30,8 +30,25 @@ Feel free to explore the code, example projects, and resources we've shared. If 
 3. For Installation of TensorFlow Lite Library, refer to [this Step-by-Step guide](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/TensorFlow%20Lite%20Library%20Installation%20for%20Arduino.md).
 
 ## Example Projects
-1. You can create Gesture recognition using AI & ML algorithms along with IMU sensors of the Arduino BLE
-2. You can also create Fruit recognition based on the logic of color sensor
+<h3>
+    
+1. You can create [Gesture recognition](basic_AI_ML_Arduino_Nano_33_BLE_Sense/GestureToEmoji) using AI & ML algorithms along with IMU sensors of the Arduino BLE
+    
+    ![](https://raw.githubusercontent.com/palnitin24/gesture_fruit_videos/main/gesture.gif)
+
+2. You can also create [Fruit recognition](basic_AI_ML_Arduino_Nano_33_BLE_Sense/FruitToEmoji) based on the logic of Color sensor of Arduino BLE
+
+    ![](https://raw.githubusercontent.com/palnitin24/gesture_fruit_videos/main/fruit%20(1).gif)
+
+3. You can create a simple [Speech recognition](basic_AI_ML_Arduino_Nano_33_BLE_Sense/SpeechRecognition) using Mic sensor of the Arduino BLE
+
+    ![](https://docs.arduino.cc/57955f70757acb18cfe1db27e286078f/micro.gif)
+   
+</h3>
 
 ## Resources
+* Check [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/Sensors-Testing) for all the Sensor Libraries of Arduino BLE.
+* For Gesture recognition refer [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/GestureToEmoji)
+* For Fruit recognition refer [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/FruitToEmoji)
+* For Speech recognition refer [this detailed document](basic_AI_ML_Arduino_Nano_33_BLE_Sense/SpeechRecognition)
 * Please refer [this Document](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/AI_ML%20Resources%20Pastebin.md) for all the references and resources used.
