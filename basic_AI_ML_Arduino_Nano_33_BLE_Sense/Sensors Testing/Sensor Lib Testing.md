@@ -282,6 +282,8 @@ This line includes the necessary Arduino library for the APDS9960 Gesture Sensor
 - The RGB LEDs are turned off initially by setting them to HIGH.
 
 ![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl32.png?raw=true)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl33.png?raw=true)
+
 **In the loop() function:**
 
 - It checks if a gesture is available using APDS.gestureAvailable().
@@ -300,19 +302,18 @@ Overall, the code demonstrates gesture detection using the APDS9960 sensor and p
 
 **Circuit Diagram:**
 
-![](RackMultipart20240210-1-42gde9_html_b7c780b727e42d3e.jpg)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl34.jpg?raw=true)
 
-**Results:**![](RackMultipart20240210-1-42gde9_html_f6e74409f45abc6c.png)
+**Results:**![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl35.png?raw=true)
 
-![](RackMultipart20240210-1-42gde9_html_22f8ea58d881c92.jpg)
-
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl36.jpg?raw=true)
 -
 ## **Access Barometric Pressure Sensor Data on Nano 33 BLE Sense**
 
 **Theory:**
 
-![](RackMultipart20240210-1-42gde9_html_d771a1ddca6c0dda.png)
-
+![]
+(https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl37.png?raw=true)
 <u>(Fig. The LPS22HB sensor)</u>
 
 The sensing element, which detects absolute pressure, consists of a suspended silicon membrane and it operates over a temperature range extending from -40 °C to +85 °C. The functionality of the sensor will be explained further later in the tutorial.
@@ -331,7 +332,7 @@ BARO.begin()as well as de-initializes the sensor with the function BARO.end().
 
 ## Modern-day barometers, known as barometric pressure sensors contain a diaphragm that's formed through a resistive plate that's in contact with the atmosphere as seen in the image below.
 
-![](RackMultipart20240210-1-42gde9_html_4ce9492f32fd34b6.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl38.png?raw=true)
 
 <u>( **Fig**. How atmospheric pressure and altitude work)</u>
 
@@ -343,7 +344,7 @@ Where, " **H**" stands for altitude, " **P**" the measured pressure (kPa) from t
 
 This graph shows the mathematical relationship between atmospheric pressure and elevation above sea level.
 
-![](RackMultipart20240210-1-42gde9_html_b69e6c35ae808196.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl39.png?raw=true)
 
 Elevation and atmospheric pressure graph.
 
@@ -361,7 +362,7 @@ Elevation and atmospheric pressure graph.
 
 - Search for the LPS22HB library and install it.
 
-![](RackMultipart20240210-1-42gde9_html_d9a9fd3702414451.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl40.png?raw=true)
 
 **3. Open Example Sketch:**
 
@@ -391,7 +392,7 @@ Elevation and atmospheric pressure graph.
 
 - Use Serial.print() to display altitude data on the Serial Monitor.
 
-![](RackMultipart20240210-1-42gde9_html_2d51ab1e3d0cd149.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl41.png?raw=true)
 
 **Step 4:** Testing
 
@@ -423,43 +424,43 @@ Elevation and atmospheric pressure graph.
 
 **Circuit Diagram:**
 
-![](RackMultipart20240210-1-42gde9_html_b7c780b727e42d3e.jpg)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl42.jpg?raw=true)
 
 **File Name:** `PressureSensor.ino`
 
-![](RackMultipart20240210-1-42gde9_html_3c570f6a3a689314.png)
-
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl43.png?raw=true)
 This line includes the Arduino library for the LPS22HB pressure sensor, which allows you to interface with and control the sensor.
 
-![](RackMultipart20240210-1-42gde9_html_684e973152af5845.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl44.png?raw=true)
 
 In the setup function, the code initializes serial communication at a baud rate of 9600. The while (!Serial); line waits until a connection is established with the serial monitor before proceeding.
 
-![](RackMultipart20240210-1-42gde9_html_e3ebacf0fb8a0a10.png)This block checks if the initialization of the pressure sensor (BARO.begin()) is unsuccessful. If so, it prints an error message to the serial monitor and enters an infinite loop, effectively stopping the program.
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl45.png?raw=true)
+This block checks if the initialization of the pressure sensor (BARO.begin()) is unsuccessful. If so, it prints an error message to the serial monitor and enters an infinite loop, effectively stopping the program.
 
-![](RackMultipart20240210-1-42gde9_html_d30411fde0df7113.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl46.png?raw=true)
 
 In the main loop function, it reads the pressure value from the sensor using BARO.readPressure() and stores it in the variable pressure.
 
-![](RackMultipart20240210-1-42gde9_html_f0d964c9fe0610f4.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl47.png?raw=true)
 
 This line calculates the altitude using the barometric formula. It takes the pressure reading, compares it to the standard atmospheric pressure at sea level (101.325 kPa), and calculates the altitude in meters.
 
-![](RackMultipart20240210-1-42gde9_html_fac47f58bbf373c2.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl48.png?raw=true)
 
 These lines print the calculated altitude to the serial monitor with a descriptive message.
 
-![](RackMultipart20240210-1-42gde9_html_c8bbc12a4a62ed9b.png)
-
+![]
+(https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl49.png?raw=true)
 This line prints an empty line to the serial monitor, creating some separation for better readability.
 
-![](RackMultipart20240210-1-42gde9_html_1917da50c04d5433.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl50.png?raw=true)
 
 The delay(1000) function pauses the program for 1 second before the next iteration of the loop, providing a delay between altitude readings.
 
 **Results:**
 
-![](RackMultipart20240210-1-42gde9_html_937c78acaaebea2b.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl51.png?raw=true)
 
 
 ## **Reading Temperature and Humidity on Nano 33 BLE Sense**
@@ -475,7 +476,7 @@ The HS3003 is an ultra-compact sensor for relative humidity and temperature. We 
 
 Temperature and humidity sensors like HS3003 are crucial for environmental monitoring, finding applications in various domains such as air conditioning, heating, ventilation, wearable devices, smart home automation, and industrial automation.
 
-![](RackMultipart20240210-1-42gde9_html_1dc273b773af18fe.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl52.png?raw=true)
 
 **Procedure:**
 
@@ -495,21 +496,21 @@ Temperature and humidity sensors like HS3003 are crucial for environmental monit
 
 Now we will need to modify the code of the example in order to print the temperature and humidity values only when the 0,5ºC degree has changed or the humidity has changed at least 1%. To do so, let's initialize the following variables before the setup()function.
 
-![](RackMultipart20240210-1-42gde9_html_cab0d62117ac5902.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl53.png?raw=true)
 
 In thesetup(), the HTW.begin() function inside an if statement will print a message, as a string, in case the sensor has not been properly initialized.
 
 Then, in the loop(), let's modify the example code by adding the following portion of code after the HTS.readTemperature() and HTS.readHumidity() functions respectively.
 
-![](RackMultipart20240210-1-42gde9_html_46c55ed4f946f413.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl54.png?raw=true)
 
 With this part of the code, we will print out the temperature and humidity values when the temperature increases or decreases more than 0,5ºC , or, when the humidity values change up or down more than 1%.
 
 **Code:-** `TempSensor.ino`
 
-![](RackMultipart20240210-1-42gde9_html_5c5106442ba725bf.png)This line includes the necessary Arduino library for the HS300x sensor.
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl55.png?raw=true)This line includes the necessary Arduino library for the HS300x sensor.
 
-![](RackMultipart20240210-1-42gde9_html_83b5dd58a9a27fc3.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl56.png?raw=true)
 
 **In the setup() function:**
 
@@ -517,27 +518,27 @@ With this part of the code, we will print out the temperature and humidity value
 - A while loop waits until a connection is established with the Serial Monitor.
 - The HS300x.begin() function is called to initialize the HS300x sensor. If initialization fails, an error message is printed, and the program enters an infinite loop.
 
-![](RackMultipart20240210-1-42gde9_html_64b4b9d0fecb6a07.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl57.png?raw=true)
 
 **In the loop() function:**
 
 - The HS300x.readTemperature() function is used to read the temperature value from the HS300x sensor, and it is stored in the variable temperature.
 - The HS300x.readHumidity() function is used to read the humidity value from the HS300x sensor, and it is stored in the variable humidity.
 
-![](RackMultipart20240210-1-42gde9_html_d0923308cbebc100.png)These lines print the temperature and humidity values to the Serial Monitor, along with descriptive labels. The temperature is printed in degrees Celsius, and the humidity is printed as a percentage.
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl58.png?raw=true)These lines print the temperature and humidity values to the Serial Monitor, along with descriptive labels. The temperature is printed in degrees Celsius, and the humidity is printed as a percentage.
 
-![](RackMultipart20240210-1-42gde9_html_c15f9354766257b0.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl59.png?raw=true)
 
 This line prints an empty line to the Serial Monitor, creating some separation for better readability.
 
 The delay(1000) function pauses the program for 1 second before the next iteration of the loop, ensuring that the temperature and humidity values are printed once per second.
 **Circuit Diagram:**
 
-![](RackMultipart20240210-1-42gde9_html_b7c780b727e42d3e.jpg)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl60.jpg?raw=true)
 
 **Results:**
 
-![](RackMultipart20240210-1-42gde9_html_414fe4d30cfbf966.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl61.png?raw=true)
 
 
 ## **Connecting Nano 33 BLE Devices over Bluetooth**
@@ -548,8 +549,8 @@ The delay(1000) function pauses the program for 1 second before the next iterati
 
 To understand how Bluetooth® Low Energy works, we need to talk about the **roles** and **responsibilities** of two devices that are connected through Bluetooth®. In any Bluetooth® connection, two roles are being played: the **central** and **peripheral** roles. Devices with a central role are also called **servers** while devices with a peripheral role are also called **clients**.
 
-![](RackMultipart20240210-1-42gde9_html_440ae883f453c736.png)
-
+![]
+(https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl62.png?raw=true)
 <u>(Fig. Central and peripheral roles in Bluetooth® applications)</u>
 
 When a Bluetooth® connection is established, one device, the peripheral, will advertise or broadcast information about itself to any nearby devices. At the same time, another device, the central, will be performing a scan and will be listening for any device or devices that are broadcasting information. As soon as the central device picks up the advertising information from the peripheral device, an attempt to connect the peripheral device will be made. Once a connection is established, the central device will interact with the available information that the peripheral device has. This information exchange is made using, what is known as, **services**.
@@ -560,7 +561,7 @@ A **service** is a group of **capabilities**. For example, a smartwatch can meas
 
 Within each service will exist a list of **characteristics**. Each one of these characteristics represents a unique capability of the central device. In the previous example, the health service would have three characteristics (heart rate, physical activity, and sleep pattern). **Once the peripheral device discovers these characteristics, it can write information to, request information from, and subscribe to updates from these characteristics**. Any characteristic, like the services, has a 16-bit long or 128-bit long UUID.
 
-![](RackMultipart20240210-1-42gde9_html_c095c47a8060a820.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl63.png?raw=true)
 
 <u>(Fig. Health service example)</u>
 
@@ -574,7 +575,7 @@ Well, that's what we need to know about Bluetooth® Low Energy for now. Bluetoot
 
 Now, let's use Bluetooth® Low Energy with Arduino. In this example, we are going to use two Arduino boards, the **Nano 33 BLE** and the **Nano 33 BLE Sense** to exchange information between them. One of the boards, the Nano 33 BLE Sense, is going to be set up as a central device while the other board, the Nano 33 BLE, is going to be set up as a peripheral device. The information that we are going to share between the boards will come from the embedded **gesture sensor** of the Nano 33 BLE Sense board. For this, we are going to create a service called **gestureService** that will have one characteristic called **gesture\_type**.
 
-![](RackMultipart20240210-1-42gde9_html_8abe16fdbbd6678b.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl64.png?raw=true)
 
 <u>(Fig. Gesture example architecture)</u>
 
@@ -594,35 +595,35 @@ The central device, the Nano 33 BLE Sense, is going to connect to the peripheral
 
 ### **Programming the Central Device**
 
-![](RackMultipart20240210-1-42gde9_html_c4b5edc4394e327f.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl65.png?raw=true)
 
 These lines include the necessary libraries for Bluetooth Low Energy (BLE) functionality using ArduinoBLE and the APDS9960 gesture sensor library.
 
-![](RackMultipart20240210-1-42gde9_html_3d2045baf846eb7f.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl66.png?raw=true)
 
 These define the UUIDs for the service and characteristic that the central device will look for in the peripheral device.
 
-![](RackMultipart20240210-1-42gde9_html_df7200ef6a1820cd.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl67.png?raw=true)
 
 Variables to store the current and previous gesture values.
 
-![](RackMultipart20240210-1-42gde9_html_1c67196e49ef7a7c.png)
-
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl68.png?raw=true)
 The setup function initializes the serial communication, the APDS9960 sensor, and the BLE module.
 
-![](RackMultipart20240210-1-42gde9_html_d4773ad4215de977.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl69.png?raw=true)
 
 The loop function continuously calls the connectToPeripheral function.
 
-![](RackMultipart20240210-1-42gde9_html_ea456b433b98eb92.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl70.png?raw=true)
 
 The connectToPeripheral function scans for peripheral devices advertising the specified service UUID, connects to the first discovered peripheral, and then calls the controlPeripheral function.
 
-![](RackMultipart20240210-1-42gde9_html_5b59069781803851.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl71.png?raw=true)
+
 
 The controlPeripheral function connects to the peripheral device, discovers its attributes, and checks if it has the required characteristic. If present, it continuously detects gestures using the APDS9960 sensor and writes the detected gesture value to the peripheral's characteristic.
 
-![](RackMultipart20240210-1-42gde9_html_d5b25e9915a354d2.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl72.png?raw=true)
 
 The gestureDetectection function reads the gesture from the APDS9960 sensor and prints the corresponding message based on the detected gesture.
 
@@ -630,35 +631,35 @@ Overall, the code sets up the Nano 33 BLE Sense as a central device, scans for a
 
 ### **Programming the Peripheral Device**
 
-![](RackMultipart20240210-1-42gde9_html_c8cb332c75e25951.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl73.png?raw=true)
 
 This line includes the necessary library for Bluetooth Low Energy (BLE) functionality using ArduinoBLE.
 
-![](RackMultipart20240210-1-42gde9_html_6d16bcbb183bccdf.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl74.png?raw=true)
 
 These are enumeration constants representing different gesture types. The values are associated with UP, DOWN, LEFT, and RIGHT gestures, and -1 for no gesture.
 
-![](RackMultipart20240210-1-42gde9_html_44b9b1fc43eea100.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl75.png?raw=true)
 
 These define the UUIDs for the service and characteristics that the peripheral device will use.
 
-![](RackMultipart20240210-1-42gde9_html_239ec8ae1688e676.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl76.png?raw=true)
 
 A variable to store the current gesture value.
 
-![](RackMultipart20240210-1-42gde9_html_e33adaf02e6bdf37.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl77.png?raw=true)
 
 These lines declare a BLE service and characteristic using the specified UUIDs. The characteristic can be both read and written.
 
-![](RackMultipart20240210-1-42gde9_html_13ca0669aa74b4a6.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl78.png?raw=true)
 
 The setup function initializes serial communication, sets up the RGB LEDs, initializes the BLE module, sets the local name, advertises the service, and prints some information.
 
-![](RackMultipart20240210-1-42gde9_html_61369ad283b3f095.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl79.png?raw=true)
 
 The loop function continuously looks for a central device and handles the connection when found. It also checks for changes in the characteristic value.
 
-![](RackMultipart20240210-1-42gde9_html_5b631eb2363dba3a.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl80.png?raw=true)
 
 The writeGesture function handles changes in the gesture value and performs corresponding actions with the RGB LEDs.
 
@@ -712,11 +713,11 @@ Overall, this code demonstrates a simple BLE peripheral device that responds to 
 
 **Circuit Diagram:**
 
-![](RackMultipart20240210-1-42gde9_html_b7c780b727e42d3e.jpg)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl81.jpg?raw=true)
 
-**Results:**![](RackMultipart20240210-1-42gde9_html_b56e9e50cf1de246.png)
+**Results:**![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl82.png?raw=true)
 
-![](RackMultipart20240210-1-42gde9_html_20b27e68a7b0bee2.jpg)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl83.jpg?raw=true)
 
 
 ## **Board Installation for Python Programming**
@@ -733,14 +734,12 @@ MicroPython is an implementation of the Python programming language, and include
 
 To do this, **tap the reset button twice** , but not too fast (about 1 second between the taps). If your board is fading its green LED, you've reset the bootloader and your board will now appear in the Arduino IDE.
 
-![](RackMultipart20240210-1-42gde9_html_637628c95ef2916b.png)
-
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl84.png?raw=true)
 Arduino Nano 33 BLE detected!
 
 **Step 3:** Now, uploading the MicroPython firmware is as easy as pressing **"install MicroPython"** and waiting for a couple of seconds while the installer tool takes care of everything else. For reboot, remove the USB connection from the computer that was used for Arduino and reattach it to the computer. Open the Arduino IDE to check if the **Board and Port** are connected properly.
 
-![](RackMultipart20240210-1-42gde9_html_b2d5f9d531281786.png)
-
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl85.png?raw=true)
 Firmware Successfully Uploaded!
 
 **Step 4:** Open the Serial Monitor:
@@ -751,7 +750,7 @@ Now open the Arduino IDE and Go to "Tools" \> "Serial Monitor" or press Ctrl+Shi
 
 <u>(The below fig is known as **REPL** interface. )</u>
 
-![](RackMultipart20240210-1-42gde9_html_4851ece56d9abbe0.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl86.png?raw=true)
 
 **Step 6:** Check MicroPython Version:** Enter the following command to check the MicroPython version:
 
@@ -761,26 +760,26 @@ print(sys. version)
 
 If MicroPython is installed correctly, it should display the version information.
 
-![](RackMultipart20240210-1-42gde9_html_295c34446ee6e9f6.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl86.png?raw=true)
 
 **Step 7** :Download [Arduino Lab for MicroPython](https://labs.arduino.cc/en/labs/micropython).
 
 The below picture shows the interface of Arduino Lab.
 
-**Step 8** :Before Connect ![](RackMultipart20240210-1-42gde9_html_4c6dc4f481ed25b5.png)Before Connecting your COM port, check if the COM port is not being used by other applications or serial monitors of the Arduino IDE. Click on the **Connect** button and select your COM port, after connection you can see the terminal window at the bottom.
+**Step 8** :Before Connect ![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl88.png?raw=true))Before Connecting your COM port, check if the COM port is not being used by other applications or serial monitors of the Arduino IDE. Click on the **Connect** button and select your COM port, after connection you can see the terminal window at the bottom.
 
-![](RackMultipart20240210-1-42gde9_html_cde98e9c80e62ef2.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl89.png?raw=true)
 
 **Step 9:** Our first example is a basic script that will print 'Hello world!' in the terminal. Paste the below script in the editor.
 
 print('Hello world!')
 
-![](RackMultipart20240210-1-42gde9_html_6ecae1fca9c704ab.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl89.png?raw=true)
 
 **Circuit Diagram:**
 
-![](RackMultipart20240210-1-42gde9_html_b7c780b727e42d3e.jpg)
-
+![]
+(https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl91.jpg?raw=true)
 **Results:**
 
 The successful result of board installation for Python programming allows you to seamlessly develop and run Python scripts on the chosen microcontroller or development board. With the correct firmware installed, a proper connection to the computer, and the ability to upload Python code, you can effectively leverage the capabilities of the board for your Python projects. Monitoring the output and troubleshooting any issues will ensure a smooth programming experience on the selected hardware platform.
@@ -789,7 +788,7 @@ By pressing the **"Run"** button you should see the output in the Serial Monitor
 
 Followed by the output:
 
-![](RackMultipart20240210-1-42gde9_html_df266b65599c8f5e.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl92.png?raw=true)
 
 ## **Conclusion:**
 
