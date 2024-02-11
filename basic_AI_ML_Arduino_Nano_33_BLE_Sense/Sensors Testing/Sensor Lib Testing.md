@@ -18,12 +18,10 @@
 ## Overview
 
 Assess the accuracy and functionality of Arduino Nano 33 BLE Sense onboard sensors and libraries for IoT applications.
-![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl18.png?raw=true)
 
 ## Requirements 
 
 **Hardware:** Arduino Nano 33 BLE Sense Microcontroller board, PC, Micro USB cable.
-![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl1.png?raw=true)
 
 **Software:** Arduino IDE
 
