@@ -39,7 +39,7 @@ The objective of the code is to create a gesture recognition system using an **A
 
 Overall, the code facilitates real-time gesture recognition using sensor data from the Arduino Nano 33 BLE Sense microcontroller and TensorFlow Lite machine learning model, demonstrating the potential of embedded machine learning for interactive applications.
 
-## **Emoji_button Code:**
+## **Emoji_button Code: (This is Windows Compatible code, but for Linux and macOS refer [this document](https://github.com/arduino/ArduinoTensorFlowLiteTutorials/blob/master/GestureToEmoji/ArduinoSketches/Emoji_Button/Emoji_Button.ino))**
 ```c
 #include <Arduino_BMI270_BMM150.h>
 #include <PluggableUSBHID.h>
