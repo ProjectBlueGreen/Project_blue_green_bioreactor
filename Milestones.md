@@ -1,4 +1,4 @@
-# Project Started - `6th Jan 2023`
+## Project Started - `6th Jan 2023`
 - ####  It started as an internship program from Sakura Biotech Pvt Ltd, eventually the work was made open source knowing how important it is to make this technology open and accessible.
 - ####  These are the students from VIT (Vidyalankar Institute of Technology) who contributed:
   - [Nitin Pal](https://github.com/palnitin24)
