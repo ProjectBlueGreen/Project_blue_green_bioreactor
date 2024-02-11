@@ -27,7 +27,8 @@ In this tutorial, we will guide you through the process of creating a custom ges
 
 - Similarly, you can open a **SimpleGyroscope** sketch and you will get a Gyroscope result on the serial monitor.
 
-![](RackMultipart20240209-1-z2j864_html_ae57832e40554417.jpg)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/847263f9-92b9-4f70-9bbf-9cde2791b0e4)
+
 
 ## STEP 2: ArduinoSketches File Setup
 
@@ -42,7 +43,8 @@ In this tutorial, we will guide you through the process of creating a custom ges
 - Open the Serial Monitor: `Tools -> Serial Monitor` and keep **newLine** to `Both NL & CR` and **baud rate** to `9600 baud`
 - Make a punch gesture with the board in your hand - you should see the sensor data log in the Serial Monitor
 
-![](RackMultipart20240209-1-z2j864_html_b29d80e19156058f.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/edfca63c-b7c6-4bd8-8816-2054fd220efe)
+
 
 - Repeat 10 times to gather more data
 - Copy and paste the data from the serial output to new text file called `punch.csv` using your favorite text editor (eg. Notepad)
@@ -55,26 +57,33 @@ In this tutorial, we will guide you through the process of creating a custom ges
 
 ## STEP 4: Training the captured Data using Tensorflow in google colab
 
-- Open [this notebook in google colab](https://colab.research.google.com/github/arduino/ArduinoTensorFlowLiteTutorials/blob/master/GestureToEmoji/arduino_tinyml_workshop.ipynb)
+- Open [this notebook in google colab]
+
+- ![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/5ca528d9-f8dc-45db-87e2-a87d9a0c957c)
+
 - **Note that Some of you might see an error about 3rd party cookies**.
 
-![](RackMultipart20240209-1-z2j864_html_3e9250e324920d1c.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/54cc5174-b1a5-474e-afe6-38eefed79e17)
+
 
 - You can enable 3rd party cookies, or better yet, add an exception for `[\*.]googleusercontent.com`
 
-![](RackMultipart20240209-1-z2j864_html_5b4dc8a4194c6cc1.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/84930bfc-c0dc-43a1-b712-854daab3cba6)
+
 
 - If you find some error in the colab notebook code then refer this google colab notebook: [GestureToEmoji\_arduino\_tinyml\_workshop.ipynb](https://colab.research.google.com/drive/1DYw_duH0RqHkklAlh0LHSBwvMzx5QN-o#scrollTo=1eSkHZaLzMId)
 - You will get these two files after running all the cells of the colab notebook. Download these two files.
 
-![](RackMultipart20240209-1-z2j864_html_87d4f6f2965c754f.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/dcc927a3-c66d-411a-adcc-903d95b9a85c)
+
 
 ## STEP 5: Classifying the IMU Data
 
 - Go to `\Documents\Arduino\libraries\ArduinoSketches\IMU_Classifier` and open `IMU_Classifier.ino` sketch in the Arduino IDE.
 - Switch to the `model.h` tab which will be next to `IMU_classifier.ino` sketch
 
-![](RackMultipart20240209-1-z2j864_html_2e2783521b5280d1.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/b755cde4-c367-491d-8f83-d5c500bfbfe5)
+
 
 - Replace the contents of `model.h` with the version you downloaded from Google Colab
 - Upload the sketch: `Sketch -> Upload`
@@ -82,7 +91,8 @@ In this tutorial, we will guide you through the process of creating a custom ges
 - Press the reset button, and perform a gesture (Punch or Flex gesture)
 - The confidence of each gesture will be printed to the Serial Monitor (Close to 0 -> low confidence & Close to 1 -> high confidence)
 
-![](RackMultipart20240209-1-z2j864_html_2c92a35ec9c8c91b.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/fd60fca0-9b06-48f0-afcb-14967739d79f)
+
 
 ## STEP 6: Gesture Emoji (👊 and 💪)
 
