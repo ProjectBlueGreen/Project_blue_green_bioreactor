@@ -72,7 +72,7 @@
 # Resources
 * Check [**AI ML integration on Arduino Nano 33 BLE Sense Board**](https://github.com/ProjectBlueGreen/project_blue_green_software/)
 
-## Open Source Contribution
+# Open Source Contribution
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **extremely appreciated**. See the [open issues](https://github.com/ProjectBlueGreen/Project_blue_green_bioreactor/issues) for a list of proposed features (and known issues).
 
 1. Fork the Project
@@ -81,5 +81,5 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+# License
 - Distributed under the [GNU License](LICENSE)
