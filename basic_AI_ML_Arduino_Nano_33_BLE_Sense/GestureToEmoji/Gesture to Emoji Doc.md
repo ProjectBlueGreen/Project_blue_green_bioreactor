@@ -16,7 +16,8 @@ In this tutorial, we will guide you through the process of creating a custom ges
 - Choose the port: `Tools -> Port -> COM3 (Arduino Nano 33 BLE)` **Note that the actual port may be different on your computer**.
 - To test IMU sensor, Open the **Simple Accelerometer** sketch using `File -> Examples -> Arduino_LSM9DS1 -> SimpleAccelerometer`, Upload the sketch to the board using the `Sketch -> Upload` menu or the right arrow button from the toolbar.
 
-![](RackMultipart20240209-1-z2j864_html_d9833fbddc960b53.jpg)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/c512acc2-f9bd-4ad7-8486-63eb7dabe1fd)
+
 
 - Open the Serial Monitor: `Tools -> Serial Monitor` to view the text output.
 - Open the Serial Plotter: `Tools -> Serial Plotter` to view the output on a graph.
