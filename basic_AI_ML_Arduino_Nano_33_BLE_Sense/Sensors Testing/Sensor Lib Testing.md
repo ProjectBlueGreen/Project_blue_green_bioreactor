@@ -31,7 +31,7 @@ Assess the accuracy and functionality of Arduino Nano 33 BLE Sense onboard senso
 
 The IMU system on the Arduino Nano 33 BLE Sense Rev2 is a combination of two modules, the 6-axis BMI270, and the 3-axis BMM150, that together add up to a combined 9-axis IMU system that can measure acceleration, as well as rotation and magnetic fields all in 3D space.
 
-![](RackMultipart20240210-1-42gde9_html_39e0436ae19fda90.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl1.png?raw=true)
 
 <u>(Fig.1 The Arduino Nano 33 BLE Sense Rev2 IMU system.)</u>
 
@@ -52,7 +52,7 @@ The library takes care of the sensor initialization and sets its values as follo
 
 An accelerometer is an electromechanical device used to measure acceleration forces. Such forces may be static, like the continuous force of gravity, or, as with many mobile devices, dynamic to sense movement or vibrations.
 
-![](RackMultipart20240210-1-42gde9_html_d77b39f8a70a80ca.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl2.png?raw=true)
 
 <u>How (Fig.2 The accelerometer works)</u>
 
@@ -60,7 +60,7 @@ In this example, we will use the accelerometer as a "level" that will provide in
 
 **Step 1:** Install the Arduino\_BMI270\_BMM150 library
 
-![](RackMultipart20240210-1-42gde9_html_60a8cd2a4943724b.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl3.png?raw=true)
 
 **Step2:** Connecting the board
 
@@ -74,22 +74,21 @@ In the Arduino IDE, go to "Tools" -\> "Board" and select "Arduino Nano 33 BLE."
 
 **Circuit Diagram:**
 
-![](RackMultipart20240210-1-42gde9_html_b7c780b727e42d3e.jpg)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl4.jpg?raw=true)
 
 <u>(Fig. Microcontroller board connected to PC/laptop)</u>
 
 **Results**:
 
-![](RackMultipart20240210-1-42gde9_html_d8d0f6bf8c5239da.png)
-
--
+![]
+(https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl5.png?raw=true)
 ## **Controlling the On-Board RGB LED with a Microphone**
 
 **Theory:**
 
 ## **MP34DT06JTR Sensor**
 
-![](RackMultipart20240210-1-42gde9_html_14481238a923b494.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl6.png?raw=true)
 
 <u>(Fig. The MP34DT06JTR microphone sensor.)</u>
 
@@ -109,7 +108,7 @@ The sensor's range of different values are the following:
 
 Let's start by opening the [Arduino](https://create.arduino.cc/editor) IDE, click on the Libraries tab, search for the PDM FOR MBED library, then in Examples, open the PDMSerialPlotter example.
 
-![](RackMultipart20240210-1-42gde9_html_3af3650f38f13be3.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl7.png?raw=true)
 
 **Step2:** Connecting the board
 
@@ -121,15 +120,15 @@ Now we will need to modify the code of the example, in order to print the sound 
 
 Before the setup() there are two types of variables initialized. One is a short variable and the other is a volatile int variable. We use the short type variable to store 16-bit data types as the sampleBuffer[256]. The other, volatile, is a keyword known as a variable qualifier. It is usually used before the datatype of a variable, to modify how the compiler and subsequent program treat the variable. In this case, it directs the compiler to load the variable samplesRead from RAM, not from a storage register.
 
-![](RackMultipart20240210-1-42gde9_html_9808dd4d26dee3b.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl8.png?raw=true)
 
 In the setup(), we use the PDM.conReceive() function to configure the data receive callback. Lastly, the PDM.begin() sets the sensor to read data from just one channel and a sample rate of 16 kHz, this statement is inside an if() that will print a message, as a string, in case the sensor has not been properly initialized.
 
-![](RackMultipart20240210-1-42gde9_html_8836fdee4bf94cfb.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl9.png?raw=true)
 
 Then, in the loop(), let's modify the example code by adding the following portion of code inside the for() loop, after the Serial.println() function.
 
-![](RackMultipart20240210-1-42gde9_html_b105b7a9a531b578.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl10.png?raw=true)
 
 With this portion of the code, we will turn on the RGB LED based on the amount of sound the microphones receive.
 
@@ -138,20 +137,20 @@ With this portion of the code, we will turn on the RGB LED based on the amount o
 **Code Explanation :** This Arduino code utilizes the Pulse Density Modulation (PDM) library to read audio samples from a microphone and control LEDs based on the intensity of the sound. Here's a breakdown of the code:
 
 1. **Library Inclusion:**
- ![](RackMultipart20240210-1-42gde9_html_ab30c4a27166a456.png)
+ ![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl11.png?raw=true)
 
 This line includes the PDM library, which is used for reading audio samples.
 
 2. **Variable Declaration:**
 
-![](RackMultipart20240210-1-42gde9_html_8051781e41f27dd0.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl12.png?raw=true)
 
 - sampleBuffer: An array to store audio samples, each represented as a 16-bit integer.
 - samplesRead: A variable to keep track of the number of audio samples read.
 
 3. **Setup Function:**
 
-![](RackMultipart20240210-1-42gde9_html_b44cbf73bb53334e.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl13.png?raw=true)
 
 - Initializes serial communication for debugging purposes.
 - Sets up a callback function on PDM data to handle received PDM data.
@@ -159,7 +158,7 @@ This line includes the PDM library, which is used for reading audio samples.
 
 4. **Loop Function:**
 
-![](RackMultipart20240210-1-42gde9_html_dafb8f62c1f5965d.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl14.png?raw=true)
 
 - Checks if there are audio samples available to read.
 - Prints each sample to the serial monitor.
@@ -167,7 +166,7 @@ This line includes the PDM library, which is used for reading audio samples.
 
 5. **PDM Data Callback Function:**
 
-![](RackMultipart20240210-1-42gde9_html_9c39e0572e97e7f3.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl15.png?raw=true)
 
 - Called when PDM data is received.
 - Queries the number of bytes available.
@@ -181,9 +180,7 @@ Overall, this code reads audio samples from a microphone using PDM and adjusts t
 
 **Results**:
 
-![](RackMultipart20240210-1-42gde9_html_3dc58f08ba5d7196.png)
-
-![image86.jpg](RackMultipart20240210-1-42gde9_html_d6788203f235115d.gif) ![image89.jpg](RackMultipart20240210-1-42gde9_html_26dad55d3f0bf892.gif) ![image82.jpg](RackMultipart20240210-1-42gde9_html_5b0247656dc3dd2c.gif)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SL_Img/sl17.png?raw=true)
 
 -
 ## **Gesture Recognition with the Nano 33 BLE Sense**
