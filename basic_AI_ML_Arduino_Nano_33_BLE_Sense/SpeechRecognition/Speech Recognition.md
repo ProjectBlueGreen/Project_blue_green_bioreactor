@@ -20,7 +20,7 @@ The purpose of Nano BLEsense Speech Recognition is to create a portable and low-
 - To start with micro Speech Go to `Files-> Examples -> Arduino_Tensorflowlite -> micro_speech`, Upload the sketch to the board using the `Sketch -> Upload` menu or the right arrow button from the toolbar.
 - Open the Serial Monitor `Tools -> Serial Monitor` to view the text output.
 
-![](RackMultipart20240211-1-hy0u9q_html_20cc1cc9a64b989d.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SR_img/sr1.png?raw=true)
 
 - Board select:
 
