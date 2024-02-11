@@ -79,4 +79,5 @@ We will now use Colab to train an ML model using the data you just captured in t
 - Press the reset button on the Arduino, and bring the fruit  that is to be identified in front of the color sensor 
 - The output of the fruit detected will be presented in percentage format in the serial monitor 
 
-  ![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.007.png)![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.008.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/fe9a177b-33ff-4cd3-a1c7-fb4059a18ce7)
+
