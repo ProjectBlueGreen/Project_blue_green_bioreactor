@@ -68,7 +68,8 @@ We will now use Colab to train an ML model using the data you just captured in t
 - Create a new tab on Arduino ide and name it `model.h`.
 - Replace the contents of **model.h** with the version you downloaded from Google Colab
 
-  ![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.005.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/89443776-c3fc-417f-b098-a42738bd4e87)
+
 
 ![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/abdeb2cc-5d46-4a50-b6e7-f0ab0d75de6b)
 
