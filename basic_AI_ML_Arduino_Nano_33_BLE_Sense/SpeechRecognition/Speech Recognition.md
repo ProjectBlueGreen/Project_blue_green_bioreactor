@@ -24,7 +24,7 @@ The purpose of Nano BLEsense Speech Recognition is to create a portable and low-
 
 - Board select:
 
-![](RackMultipart20240211-1-hy0u9q_html_c1c9d8b3981a2cf4.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SR_img/sr2.png?raw=true)
 
 ## STEP 2: Compile
 
@@ -47,25 +47,25 @@ The purpose of Nano BLEsense Speech Recognition is to create a portable and low-
 
 ## STEP 4: Output
 
-![](RackMultipart20240211-1-hy0u9q_html_9ebbbfe59d5321be.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SR_img/sr3.png?raw=true)
 
 (Fig. **Serial output**)
 
 Serial printing prints the real time Output of the board on the serial monitor.
 
-![](RackMultipart20240211-1-hy0u9q_html_dda60bdbaefdd023.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SR_img/sr4.png?raw=true)
 
 (Fig. **"Unknown" Indication**)
 
 `Blue LED Indicator`: When the board fails to detect the predefined input, it activates a "Blue" LED. This serves as a visual cue indicating that the expected input signal is not present or has not been received.
 
-![](RackMultipart20240211-1-hy0u9q_html_3b48ca29b6b282b8.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SR_img/sr5.png?raw=true)
 
 (Fig. **"Yes" Indication**)
 
 `Green LED Indicator`: Upon successful detection of the input signal as "Yes," the board triggers a "Green" LED to illuminate. This signals to the observer that the input has been recognized as affirmative or positive.
 
-![](RackMultipart20240211-1-hy0u9q_html_3bfffbf7efbab21a.png)
+![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/SR_img/sr6.png?raw=true)
 
 (Fig. **"No" Indication**)
 
