@@ -30,7 +30,7 @@
 - Go to [this Reposiroty](https://github.com/palnitin24/Arduino_TensorFlowLite)
 - Download the repository in a zip file: Go to `Code -> Download Zip`
 
-![](RackMultipart20240210-1-1vzfqc_html_5f04774881da92b.png)
+   ![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/TF_Img/TF1.png?raw=true)
 
 - Extract the downloaded zip file in `C:\Users\your_pc\username\Documents\Arduino\libraries`
 - Rename the file to **Arduino\_TensorFlowLite**
@@ -42,14 +42,14 @@
     ```
     cd C:\Users\your_pc\username\Documents\Arduino\libraries
     ```
-![](RackMultipart20240210-1-1vzfqc_html_535c8ec4612f18fe.png)
-
+    <img src="https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/TF_Img/TF2.png?raw=true" width="320" alt="Alt Text">
+    
 - Clone the TensorFlow Lite Micro Arduino Examples repository using the following command:
     ```
     git clone https://github.com/palnitin24/Arduino_TensorFlowLite Arduino_TensorFlowLite
     ```
 
-![](RackMultipart20240210-1-1vzfqc_html_738f7e09f0f63183.png)
+   ![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/TF_Img/TF3.png?raw=true)
 
 **Note:** If you are getting an error `fatal: could not create work tree dir "Arduino_TensorFlowLite": No such file or directory` so probably your windows is blocking git to make any changes in the folder. So go to your pc `settings -> windows security -> allow the access`. After this the issue will be resolved and you can see the cloning process completed successfully.
 
@@ -69,7 +69,7 @@
 
 - Once the library has been installed, you should then start the Arduino IDE. You will now see an `Arduino_TensorFlowLite` entry in the `File -> Examples` menu of the Arduino IDE. This submenu of **Arduino_TensorFlowLite** contains a list of sample projects you can try out.
 
-![](RackMultipart20240210-1-1vzfqc_html_5be971f9ef6a2ebf.png)
+   ![](https://github.com/ProjectBlueGreen/project_blue_green_software/blob/main/basic_AI_ML_Arduino_Nano_33_BLE_Sense/assets/TF_Img/TF4.png?raw=true)
 
 ## Conclusion
 
