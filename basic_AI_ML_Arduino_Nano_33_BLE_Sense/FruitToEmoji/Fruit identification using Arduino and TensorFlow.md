@@ -70,7 +70,8 @@ We will now use Colab to train an ML model using the data you just captured in t
 
   ![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.005.png)
 
-![](Aspose.Words.20c74418-a7d9-4068-a474-ca3a2c61a20c.006.png)
+![image](https://github.com/ProjectBlueGreen/project_blue_green_software/assets/159428457/abdeb2cc-5d46-4a50-b6e7-f0ab0d75de6b)
+
 
 - Upload the sketch: `Sketch -> Upload`
 - Open the Serial Monitor: `Tools -> Serial Monitor`
