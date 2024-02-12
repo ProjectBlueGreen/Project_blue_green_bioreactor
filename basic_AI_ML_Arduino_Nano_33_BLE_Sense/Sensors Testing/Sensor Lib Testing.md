@@ -792,17 +792,4 @@ Followed by the output:
 
 ## **Conclusion:**
 
-- Choose Compatible Board:
-  - Select a microcontroller or development board that supports MicroPython or CircuitPython.
-- Firmware Installation:
-  - Install MicroPython or CircuitPython firmware based on the chosen board's documentation.
-- Connect and Access:
-  - Connect the board to the computer using a USB cable and access its file system to upload Python scripts.
-- Code Writing:
-  - Write Python code using a text editor or IDE and save it with a .py extension.
-- Upload Code:
-  - Copy the Python script to the board's file system. Press reset if needed (CircuitPython boards).
-- Monitor Output:
-  - Use tools like PuTTY or IDE serial monitors to interact with the board and view output.
-- Troubleshooting:
-  - Refer to the board's documentation, forums, or communities for issue resolution.
+- The Arduino Nano 33 BLE Sense combines a tiny form factor, different environment sensors and the possibility to run AI using TinyML and TensorFlow™ Lite. Whether you are looking at creating your first embedded ML application or you want to use Bluetooth® Low Energy to connect your project to your phone, the Nano 33 BLE Sense will make that journey easy.
