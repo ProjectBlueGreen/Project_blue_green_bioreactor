@@ -1,16 +1,15 @@
 ## Project Started - `6th Jan 2024`
-- ####  This project was started as an internship program from Sakura Biotech Pvt Ltd, eventually the work was made open source knowing how important it is to make this technology open and accessible.
-- ####  These are the students from VIT (Vidyalankar Institute of Technology) who contributed:
+- **This project was started as an internship program from Sakura Biotech Pvt Ltd, eventually the work was made open source knowing how important it is to make this technology open and accessible.**
+- **These are the students from VIT (Vidyalankar Institute of Technology) who contributed:**
   - [Nitin Pal](https://github.com/palnitin24)
   - [Shubham Chavan](https://github.com/ShubhamChavan2003)
   - [Rachit Roy](https://github.com/Rach8roy)
   - [Sachet Shetty](https://github.com/Sachet10)
   - [Siddharth Chavan](https://github.com/Wrathsid)
-  - [Tejas Bhandare]
+  - [Tejas Bhandare](https://github.com/Tejas120403)
   - [Arsalan Rangoonwala](https://github.com/Arsu12)
   - [Sristy Pandey](https://github.com/Sristy-Pandey)
   - [Atharva Mhaishalkar](https://github.com/Atharva007mm)
   - [Shreekant Pukale](https://github.com/Shreekant16)
   - [Mayank Patil](https://github.com/mayankpatil1112)
   - [Kirti Singh](https://github.com/kirtiysingh)
-  - 
