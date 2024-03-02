@@ -13,3 +13,5 @@
   - [Shreekant Pukale](https://github.com/Shreekant16)
   - [Mayank Patil](https://github.com/mayankpatil1112)
   - [Kirti Singh](https://github.com/kirtiysingh)
+  - [Ganesh Jangal](https://github.com/ganeshaa26)
+  - [Ayush Mohite](https://github.com/ayush005-wq)
