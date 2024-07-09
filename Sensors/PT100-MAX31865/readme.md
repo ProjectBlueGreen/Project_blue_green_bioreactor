@@ -34,3 +34,9 @@ This project demonstrates how to use an ESP8266 microcontroller with a MAX31865 
    - Open the Arduino IDE
    - Go to Sketch -> Include Library -> Manage Libraries...
    - Search for "Adafruit MAX31865" and install it
+
+
+Special thanks to Kunal Patil for their valuable contributions to this project.
+(https://github.com/Gamerboisoap1)
+
+
